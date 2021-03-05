@@ -8,12 +8,11 @@ SC_MODULE(mux) {
 
     void do_mux() {
 
-    if(sel.read()==0){
-        out.write(a.read());
-    }else {
-        out.write(b.read());
-    }
-        
+        if(sel.read()==0){
+            out.write(a.read());
+        }else {
+            out.write(b.read());
+        }  
     }
 
     SC_CTOR(mux) {
