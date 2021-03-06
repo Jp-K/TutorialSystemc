@@ -24,7 +24,7 @@ pacotes:
   sudo apt install libsystemc libsystemc-dev
   --------------------------------------------
 
-**3. Criando um projeto systemc:**
+**4. Criando um projeto systemc:**
 
 Para iniciar um novo projeto, é necessário criar somente um arquivo
 .cpp, porém para facilitar a compilação, é recomendado criar um
