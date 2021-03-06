@@ -70,34 +70,3 @@ Caso não tenha a Makefile:
 |                              |
 | ./main                       |
 +------------------------------+
-
-**4. Configurando a compilação do visual studio code:**
-
-Antes de tudo, é necessário baixar o pluguin "code runner":
-
-![](media/image1.png){width="4.177083333333333in"
-height="5.260416666666667in"}
-
-Depois da istalação do plugin, é necessário configurar a compilação do
-c++, siga os passos a baixo:
-
-Clique na roda dentada e selecione "Extension Settings":
-
-![](media/image2.png){width="6.925in" height="6.822916666666667in"}
-
-Procure por "Executor Map", e selecione "Edit in settings.json":
-
-![](media/image3.png){width="6.925in" height="6.300694444444445in"}
-
-Por fim, localize a linha que se refere a "cpp", e altere seu valor
-para:
-
-**"cd \$dir && make"**
-
-![](media/image4.png){width="6.591666666666667in"
-height="3.6527777777777777in"}
-
-![](media/image5.png){width="6.6194444444444445in"
-height="3.8604166666666666in"}
-
-Pronto, seu visual studio code está pronto para compilar sozinho.
